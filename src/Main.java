@@ -3,8 +3,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Card Deck Simulation");
+        System.out.println("Card Deck Simulation");
 
 
-        }
     }
+
+}
+
+//code runs in Hand not Main
