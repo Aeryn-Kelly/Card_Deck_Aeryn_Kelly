@@ -13,4 +13,3 @@ public class Hand {
     }
 }
 
-//Main does nothing you would see disappointment if you went there

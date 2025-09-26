@@ -16,21 +16,24 @@ public class Deck {
             }
         }
     }
+    //makes an array from cards
 
-public void shuffle() {
+    public void shuffle() {
         Collections.shuffle(cards);
+    //shuffles deck
+    }
 
-}
-
-public Cards dealCard() {
+    public Cards dealCard() {
         if (cards.isEmpty()) {
             return null;
         }
         return cards.remove(0);
     }
+    //makes it so you cant get a card when deck is empty
 
     public List<Cards> getCards() {
         return new ArrayList<>(cards);
     }
-
 }
+
+//this takes the cards shuffles them and returns the card list array
